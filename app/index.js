@@ -31,9 +31,7 @@ let Constan = 1
 const client = new Discord.Client();
 const app = express();
 
-setInterval(function() {
-  got("https://blue-sore-braid.glitch.me/");
-}, 240000);
+
 
 app.get(`/`, async (request, response) => {
   response.sendStatus(200);
